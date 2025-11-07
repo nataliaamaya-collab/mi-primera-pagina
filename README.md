@@ -26,16 +26,17 @@ Por eso se llama **variable**, porque su valor puede **variar o cambiar** durant
 
 ## 💡 Ejemplo: 
 
-```python
+python
 nombre = "Andrea"
 edad = 18
 
 print(f"Hola, me llamo {nombre} y tengo {edad} años.")
+
 👉 Este código crea dos variables: nombre y edad.
 Luego usa print() para mostrar un mensaje con esos datos.
 
-REFLEXIÓN
-es interesante conocer los conceptos básicos de programación y entender como funciona.Esto nos ayuda aclarar muchas dudas y darle sentido a todo el tema de desarrollo de software.poco a poco uno se da cuenta de que detras de cada programa hay una lógica y un proceso que se puede aprender.comprender como se conectan las ideas,las variables y las instruccciones me hace ver que programar no es solo escribir un código si no enteder como piensasn las computadoras.
+## REFLEXIÓN
+Es interesante conocer los conceptos básicos de programación y entender como funciona.Esto nos ayuda aclarar muchas dudas y darle sentido a todo el tema de desarrollo de software.poco a poco uno se da cuenta de que detras de cada programa hay una lógica y un proceso que se puede aprender.comprender como se conectan las ideas,las variables y las instruccciones me hace ver que programar no es solo escribir un código si no enteder como piensasn las computadoras.
 
-referncias de IA
+## Referncias de IA
 ChatGPThttps://chatgpt.com/convrsación que es un programa,que es python ejemplos ,variables.
