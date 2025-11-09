@@ -9,6 +9,8 @@ Un **lenguaje de programación** es una forma de **comunicarse con la computador
 Sirve para **darle instrucciones paso a paso**, decirle **qué hacer** y **cómo hacerlo**, usando palabras y símbolos que la máquina puede entender.
 Así como nosotros usamos el español o el inglés para hablar con otras personas, los programadores usan lenguajes como **Python, Java, C++ o JavaScript** para hablar con las computadoras.
 
+**Python** es un **lenguaje de programación** muy popular, fácil de leer y de aprender. 
+
 ## 📦 ¿Qué es una variable?
 
 Una **variable** en programación es como una **cajita con nombre** donde se puede **guardar información** para usarla más adelante.  
@@ -21,19 +23,116 @@ Dentro de la caja puedes guardar algo (por ejemplo, un número o una palabra), y
 
 Por eso se llama **variable**, porque su valor puede **variar o cambiar** durante la ejecución del programa.
 
+## ¿que es un valor?
 
-**Python** es un **lenguaje de programación** muy popular, fácil de leer y de aprender. 
+ es la información concreta que un programa almacena y manipula,es decir,es el dato real.
+ en programación una *variable* es como la estiqueta o nombre y el *valor*es lo que esta guardado bajo esa etiqueta.
+```pytho
+ 
+ a=5
+```
+
+a es la variable(la etiqueta)
+5 es el valor (el dato que se guarda den la memoria)
+el valor siempre tienen un tipo de dato ,que determinan como se guardan y que oeraciones pueden hacersen en ellos.
+
+## 👉¿que es un operador?
+
+un operador es un simbolo que indica una acción.
+es como darle una instrucción muy corta:
+
+  + suma
+ -  resta
+ * multiplicación
+ / divide
+
+- = guarda un valor en una variable
+ 
+ - == compara si dos cosas son iguales
+
+hay operadores que en programación no singnifican lo mismo que en matematicas como lo es *=* en programación significa 
+guardar un valor en una variable y en matematicas es igual a.
+
+## algunos operadores son:
+ ## operadores de comparación
+ devuelven true o false:
+ 
+ - == igual
+ - == == igual
+ - != diferente
+ -  > mayor
+ - < menor
+ - >= mayor o igual
+ - <= menor o igual
+
+## ✅  Operadores lógicos#
+ Para combinar condiciones:
+- and → las dos deben ser ciertas
+- or → basta con una
+- not → cambia True o False.
+
+## Orden de operaciones
+
+Primero calcula:
+
+- Paréntesis
+- Potencias
+- Multiplicaciones y divisiones
+- Sumas y restas
+- Igual que matemáticas.
+
+## Operadores con cadenas
+
+- "texto" + "texto" → une palabras
+-"texto" * número → repite el texto
+- No se puede restar, dividir, etc.
+
+
+## Lectura y escritura de valores en variables — Explicación sencilla
+ **print(): mostrar cosas en pantalla**
+ 
+print() es como decirle al computador:
+➡️ “Muéstrame esto en la pantalla”.
+
+Ejemplo:
+```
+python
+nombre = "Ana"
+print("Hola", nombre)
+
+El computador solo imprime lo que le digas.
+
+print(f"Hola, {nombre}")
+```
+ # input(): pedir datos al usuario
+
+input() sirve para preguntarle algo al usuario y guardar lo que escriba.
+
+➡️ Siempre devuelve texto (string), aunque el usuario escriba números.
+
+## Ejemplo:
+```python
+nombre=input(¨¿nombre?¨)
+```
+si necesitas un número tienes que convertirlo:
+```python
+edad=int(input(¨edad:¨))
+```
+asi se pueden hacer los cálculos.
 
 ## 💡 Ejemplo: 
 
-python
+```python
 nombre = "Andrea"
 edad = 18
-
 print(f"Hola, me llamo {nombre} y tengo {edad} años.")
 
 👉 Este código crea dos variables: nombre y edad.
 Luego usa print() para mostrar un mensaje con esos datos.
+
+x=10
+print(x=)
+```
 
 ## REFLEXIÓN
 Es interesante conocer los conceptos básicos de programación y entender como funciona.Esto nos ayuda aclarar muchas dudas y darle sentido a todo el tema de desarrollo de software.poco a poco uno se da cuenta de que detras de cada programa hay una lógica y un proceso que se puede aprender.comprender como se conectan las ideas,las variables y las instruccciones me hace ver que programar no es solo escribir un código si no enteder como piensasn las computadoras.
