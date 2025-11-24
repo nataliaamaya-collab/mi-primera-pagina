@@ -133,6 +133,30 @@ Luego usa print() para mostrar un mensaje con esos datos.
 x=10
 print(x=)
 ```
+print() e input() son ejemplos de funciones, es decir, bloques de código reutilizables que realizan una tarea específica.
+Una función puede recibir datos de entrada (llamados parámetros o argumentos) y devolver un resultado o simplemente ejecutar una acción.
+
+# Que es una función?
+
+Una función es un bloque de código que hace una tarea específica.
+Sirve para organizar el programa y evitar repetir código.
+
+def saludar():
+    print("¡Hola!")
+
+
+para usarla 
+
+    saludar()
+
+ # la identación
+
+La indentación son los espacios al inicio de las líneas.
+En Python es obligatoria porque indica qué instrucciones pertenecen a una función o a un condicional.
+# Ejemplo
+def ejemplo():
+    print("Dentro")
+print("Fuera")
 
 ## REFLEXIÓN
 Es interesante conocer los conceptos básicos de programación y entender como funciona.Esto nos ayuda aclarar muchas dudas y darle sentido a todo el tema de desarrollo de software.poco a poco uno se da cuenta de que detras de cada programa hay una lógica y un proceso que se puede aprender.comprender como se conectan las ideas,las variables y las instruccciones me hace ver que programar no es solo escribir un código si no enteder como piensasn las computadoras.
