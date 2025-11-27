@@ -1,17 +1,24 @@
-en esta pagina presento los ejercicios de la unidad 1
-# Ejercicio 1
-** Enunciado **
-simula el comportamiento de la tortuga usando lo ´´print´´ e input´´
-para ahcer el primer ejercicio use este codigo
+# 🐢 RECREAR MI PROPIA TORTUGA 🐢
 
-import turtle
+**ENUNCIADO**
+💡simula el comportamiento de la tortuga usando Solo "print´" e "input"
+este es el codigo usado para este paso.
 
-t = turtle.Turtle()
-t.forward(100)
+```python
+def avanzar():
+    pasos = int(input("¿Cuántos pasos debe avanzar la tortuga? "))
+    print("Tortuga avanzando...")
+    print("→" * pasos)
 
-turtle.done()
+print("Simulación de movimiento de la tortuga")
+avanzar()
+```
+resultado obtenido
+```markdow
+<img width="363" height="68" alt="2025-11-26 220949" src="https://github.com/user-attachments/assets/cce3c588-cf2f-48f7-b20d-4e4b251f3bb5" />```
 
-<img width="690" height="475" alt="image" src="https://github.com/user-attachments/assets/5c1addd4-a9a8-478f-a122-23b99bb52b2d" />
+el objetivo es simular el comportamiento de la turtle unicamente utilizando textopor medio de las funciones print() para mostrar mensajes en pantalla y input() para pedir datos al usuario para lograrlo,el programa pregunta cuantos pasos debe avanzar la tortuga y luego muestra ese avance (→)como una forma visual simple del movimieento.
 
-este fue el resultado el program pide al usuario un numero y luego muestra un mensaje simulando el movimiento de la tortuga.
+**Enunciado 2**
+
 
