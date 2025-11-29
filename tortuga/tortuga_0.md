@@ -35,7 +35,21 @@ Resultado
 **TERCER ENUNCIADO**
 Ahora la tortuga no solo avanza: también gira.
 
+# L invertida
+horizontal = int(input("¿Cuántos pasos quieres que tenga la línea horizontal? "))
+print("-" * horizontal)
 
+vertical = int(input("¿Cuántos pasos quieres que tenga la línea vertical? "))
+espacios = " " * (horizontal - 1)
+print((espacios + "|\n") * vertical)
+
+input("Pulsa Enter para dibujar la L invertida")
+
+print("tortuga dibujando L invertida\n")
+print("→→→→→")
+print("    ↓")
+print("    ↓")
+print("    ↓")
 
 
 
