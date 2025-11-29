@@ -5,20 +5,19 @@
 este es el codigo usado para este paso.
 
 ```python
-def avanzar():
-    pasos = int(input("¿Cuántos pasos debe avanzar la tortuga? "))
-    print("Tortuga avanzando...")
-    print("→" * pasos)
-
-print("Simulación de movimiento de la tortuga")
-avanzar()
+print("TORTUGA: moviéndose en línea →")
+pasos = int(input("¿Cuántos pasos hacia la derecha? "))
+print("→" * pasos)
 ```
+
 resultado obtenido
-```markdow
-<img width="363" height="68" alt="2025-11-26 220949" src="https://github.com/user-attachments/assets/cce3c588-cf2f-48f7-b20d-4e4b251f3bb5" />```
+
+<img width="488" height="111" alt="Captura de pantalla 2025-11-29 134959" src="https://github.com/user-attachments/assets/0af836dd-feda-43a6-a7ec-a0aecf1a3902" />
 
 el objetivo es simular el comportamiento de la turtle unicamente utilizando textopor medio de las funciones print() para mostrar mensajes en pantalla y input() para pedir datos al usuario para lograrlo,el programa pregunta cuantos pasos debe avanzar la tortuga y luego muestra ese avance (→)como una forma visual simple del movimieento.
 
-**Enunciado 2**
+**ENUNCIADO 2**
+🤓crear el rastro de una tortuga moviendose hacia abajo usando unicamente  print()e input()
+
 
 
