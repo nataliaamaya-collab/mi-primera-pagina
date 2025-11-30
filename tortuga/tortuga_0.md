@@ -35,15 +35,20 @@ Resultado
 **TERCER ENUNCIADO**
 
 Ahora la tortuga no solo avanza: también gira.
+
 ```python
-input("Pulsa Enter para que la tortuga dibuje una figura en angulo")
-print("tortuga dibujando L invertida\n")
-print("→→→→→")
-print("    ↓\n    ↓\n    ↓")
+print("tortuga dibujando una L\n")
+
+h = int(input("¿Pasos hacia la derecha? "))
+v = int(input("¿Pasos hacia abajo? "))
+
+print("→" * h)
+print((" " * h + "↓\n") * v, end="")
 ```
 Resultado
 
-<img width="507" height="128" alt="Captura de pantalla 2025-11-29 184301" src="https://github.com/user-attachments/assets/e35b5997-22e6-47bc-91c7-d9e7f5e15b77" />
+<img width="243" height="177" alt="Captura de pantalla 2025-11-30 181542" src="https://github.com/user-attachments/assets/ea09beb3-e5d0-4926-9632-5337cb5a58fe" />
+
 
 * El programa dibuja una especie de “L” que apunta hacia la derecha y hacia abajo.
 * input() hace que el usuario decida cuándo empezar.
@@ -83,11 +88,45 @@ Resultado
 * El usuario puede elegir cuántos pasos quiere en cada dirección
 * input() se usa para esperar al usuario antes de empezar a dibujar
 
-  **QUINTO ENUNCIADO**
+ 🧑‍💻 **QUINTO ENUNCIADO**
   
 Ajustar las funciones para que la tortuga pueda bajar escalones.
 Cada escalón debe conservar la posición horizontal acumulada y dibujar correctamente tanto el tramo horizontal como el vertical.
+Aquí hacemos que la tortuga dibuje escalones, como una escalera que avanza hacia la derecha y luego baja.
 
+Cada escalón tiene:
 
+* Un tramo horizontal (----->)
+* Un giro hacia abajo (|, v)
+* Y se repite varias veces
+
+```python
+  
+  def adelante(n, pos):
+    print(" " * pos + "-" * n + ">")
+def abajo(n, pos):
+    for i in range(n - 1):
+        print(" " * pos + "|")
+    print(" " * pos + "v")
+print("Tortuga bajando escalones\n")
+escalones = int(input("¿Cuántos escalones? "))
+h = int(input("¿Pasos hacia la derecha por escalón? "))
+v = int(input("¿Pasos hacia abajo por escalón? "))
+pos = 0   
+for i in range(escalones):
+    adelante(h, pos)
+    abajo(v, pos + h)
+    pos += h
+```
+
+💡 Resultado
+
+<img width="327" height="261" alt="Captura de pantalla 2025-11-30 180623" src="https://github.com/user-attachments/assets/882a3d9c-7282-42d3-b194-a9856c621212" />
+
+* Dibujamos líneas usando solo print()
+* Cada movimiento de la tortuga se representa con caracteres
+* Alineamos los dibujos usando espacios " "
+* Guardamos la posición actual para saber dónde dibujar el siguiente escalón
+* Usamos funciones para que el código sea más fácil de entender y repetir
 
 
