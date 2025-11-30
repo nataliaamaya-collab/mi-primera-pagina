@@ -129,4 +129,6 @@ for i in range(escalones):
 * Guardamos la posición actual para saber dónde dibujar el siguiente escalón
 * Usamos funciones para que el código sea más fácil de entender y repetir
 
+**Referencias de IA** 
 
+ChatGPT: conversación sobre temas variables,funciones,sus usos,ejemplos.
