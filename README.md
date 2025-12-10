@@ -166,4 +166,6 @@ ChatGPThttps://chatgpt.com/convrsación que es un programa,que es python ejemplo
 
  ## NUEVAS ENTRADAS 
  Creando una simulacion de tortuga solo con funciones print y input
+ https://github.com/nataliaamaya-collab/mi-primera-pagina/tree/main/tortuga
+ 
  
