@@ -163,3 +163,7 @@ Es interesante conocer los conceptos básicos de programación y entender como f
 
 ## Referncias de IA
 ChatGPThttps://chatgpt.com/convrsación que es un programa,que es python ejemplos ,variables.
+
+ ## NUEVAS ENTRADAS 
+ Creando una simulacion de tortuga solo con funciones print y input
+ 
