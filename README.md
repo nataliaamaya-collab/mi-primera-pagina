@@ -170,7 +170,8 @@ En esta entrada se presenta una simulación simple de una tortuga, desarrollada 
 La interacción con la tortuga se realiza mediante una interfaz simple con los comandos adelante y abajo, aplicando los conceptos vistos en la Unidad 1.
 Se incluye el código en Python y una breve explicación de su funcionamiento.
 
-Hacer click aqui  https://github.com/nataliaamaya-collab/mi-primera-pagina/tree/main/tortuga
+👉[Repositorio de la Tortuga](https://github.com/nataliaamaya-collab/mi-primera-pagina/tree/main/tortuga)
+
 
  ## Evolución de Mini-Turtle 🐢(tarea mini-turtle)
 
@@ -180,7 +181,8 @@ Primero trabajaremos una encapsulación funcional, organizando el código con fu
 
 Este ejercicio muestra cómo la encapsulación mejora la organización del código.
 
- haz cilck aqui para ver la version funcional https://github.com/nataliaamaya-collab/mini_turtle-
- 
- haz click aqui para ver la version orientadad a objetos https://github.com/nataliaamaya-collab/mini_turtle_00_task-
+👉 [Haz clic aquí para ver la versión funcional](https://github.com/nataliaamaya-collab/mini_turtle-)
+
+ 👉 [Haz clic aquí para ver la versión orientada a objetos](https://github.com/nataliaamaya-collab/mini_turtle_00_task-)
+
  
