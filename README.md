@@ -165,8 +165,12 @@ Es interesante conocer los conceptos básicos de programación y entender como f
 ChatGPThttps://chatgpt.com/convrsación que es un programa,que es python ejemplos ,variables.
 
  ## NUEVAS ENTRADAS 
- Creando una simulacion de tortuga solo con funciones print y input
- https://github.com/nataliaamaya-collab/mi-primera-pagina/tree/main/tortuga
+ 
+En esta entrada se presenta una simulación simple de una tortuga, desarrollada únicamente usando input y print.
+La interacción con la tortuga se realiza mediante una interfaz simple con los comandos adelante y abajo, aplicando los conceptos vistos en la Unidad 1.
+Se incluye el código en Python y una breve explicación de su funcionamiento.
+
+Hacer click aqui  https://github.com/nataliaamaya-collab/mi-primera-pagina/tree/main/tortuga
 
  ## Evolución de Mini-Turtle 🐢
 
@@ -176,6 +180,7 @@ Primero trabajaremos una encapsulación funcional, organizando el código con fu
 
 Este ejercicio muestra cómo la encapsulación mejora la organización del código.
 
- haz cilck aqui para ver la version funcional 
- haz click aqui para ver la version orientadad a objetos
+ haz cilck aqui para ver la version funcional https://github.com/nataliaamaya-collab/mini_turtle-
+ 
+ haz click aqui para ver la version orientadad a objetos https://github.com/nataliaamaya-collab/mini_turtle_00_task-
  
