@@ -172,7 +172,7 @@ Se incluye el código en Python y una breve explicación de su funcionamiento.
 
 Hacer click aqui  https://github.com/nataliaamaya-collab/mi-primera-pagina/tree/main/tortuga
 
- ## Evolución de Mini-Turtle 🐢
+ ## Evolución de Mini-Turtle 🐢(tarea mini-turtle)
 
 En esta entrada del blog veremos cómo encapsular el comportamiento de una tortuga desarrollada en la Tarea 2.
 
