@@ -170,7 +170,7 @@ En esta entrada se presenta una simulación simple de una tortuga, desarrollada 
 La interacción con la tortuga se realiza mediante una interfaz simple con los comandos adelante y abajo, aplicando los conceptos vistos en la Unidad 1.
 Se incluye el código en Python y una breve explicación de su funcionamiento.
 
-👉[Repositorio de la Tortuga](https://github.com/nataliaamaya-collab/mi-primera-pagina/tree/main/tortuga)
+👉[archivo de la Tortuga](https://github.com/nataliaamaya-collab/mi-primera-pagina/tree/main/tortuga)
 
 
  ## Evolución de Mini-Turtle 🐢(tarea mini-turtle)
