@@ -161,7 +161,7 @@ print("Fuera")
 ## REFLEXIÓN
 Es interesante conocer los conceptos básicos de programación y entender como funciona.Esto nos ayuda aclarar muchas dudas y darle sentido a todo el tema de desarrollo de software.poco a poco uno se da cuenta de que detras de cada programa hay una lógica y un proceso que se puede aprender.comprender como se conectan las ideas,las variables y las instruccciones me hace ver que programar no es solo escribir un código si no enteder como piensasn las computadoras.
 
-## Referncias de IA
+## Referencias de IA
 ChatGPThttps://chatgpt.com/convrsación que es un programa,que es python ejemplos ,variables.
 
  ## NUEVAS ENTRADAS 
