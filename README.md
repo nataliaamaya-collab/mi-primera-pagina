@@ -167,5 +167,15 @@ ChatGPThttps://chatgpt.com/convrsación que es un programa,que es python ejemplo
  ## NUEVAS ENTRADAS 
  Creando una simulacion de tortuga solo con funciones print y input
  https://github.com/nataliaamaya-collab/mi-primera-pagina/tree/main/tortuga
- 
+
+ ## Evolución de Mini-Turtle 🐢
+
+En esta entrada del blog veremos cómo encapsular el comportamiento de una tortuga desarrollada en la Tarea 2.
+
+Primero trabajaremos una encapsulación funcional, organizando el código con funciones y módulos. Luego, evolucionaremos a una encapsulación usando Programación Orientada a Objetos (POO), donde el estado y el comportamiento de la tortuga se agrupan dentro de una clase, permitiendo crear objetos independientes.
+
+Este ejercicio muestra cómo la encapsulación mejora la organización del código.
+
+ haz cilck aqui para ver la version funcional 
+ haz click aqui para ver la version orientadad a objetos
  
